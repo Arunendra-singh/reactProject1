@@ -143,7 +143,7 @@ const CartView = () => {
                             type="button"
                             onClick={handleIncrease}
                           >
-                            <i className="bi bi-plus-lg"></i>
+                            <i className="bi bi-plus-lg"></i> 
                           </button>
                         </div>
                       </td>
