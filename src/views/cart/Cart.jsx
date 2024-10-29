@@ -70,6 +70,7 @@ const CartView = () => {
                           <button
                             className="btn btn-primary text-white"
                             type="button"
+                            onClick={handleDecrease}
                           >
                             <i className="bi bi-dash-lg"></i>
                           </button>
@@ -77,10 +78,12 @@ const CartView = () => {
                             type="text"
                             className="form-control"
                             defaultValue="1"
+                            value={quantity}
                           />
                           <button
                             className="btn btn-primary text-white"
                             type="button"
+                            onClick={handleIncrease}
                           >
                             <i className="bi bi-plus-lg"></i>
                           </button>
